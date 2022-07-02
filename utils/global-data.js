@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'It's just a proof of concept, nothing much, ehh';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'Слава Украина.';
+    : 'All approved.';
 
   return {
     name,
